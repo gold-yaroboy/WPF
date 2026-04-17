@@ -5,9 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Introduction to WPF" Height="450" Width="800" FontSize="64">
     <Grid>
-        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Margin="16,16,16,16" FontFamily="Tahoma" Padding="16,8,16,8" Click="Button_Click"/>
-
+        <!--<Button x:Name="btnStart" 
+                Content="Start" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                FontSize="16" 
+                Margin="16,16,16,16" 
+                FontFamily="Tahoma" 
+                Padding="16,4,16,4" 
+                Click="Button_Click" 
+                BorderThickness="1,1,1,1" 
+                UseLayoutRounding="True" 
+                MinWidth="68" 
+                MinHeight="32"/>>-->
+        <Button Click="Button_Click">Кнопка</Button>
     </Grid>
 </Window>

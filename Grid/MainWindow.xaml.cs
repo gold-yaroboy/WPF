@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF
+namespace Grid
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
@@ -24,11 +24,5 @@ namespace WPF
 		{
 			InitializeComponent();
 		}
-
-		private void Button_Click(object sender, RoutedEventArgs e)
-		{
-			//((Button)sender).Content = ((Button)sender).Content.ToString() == "Start" ? "Stop" : "Start";
-			(sender as Button).Content = (sender as Button).Content== "Start" ? "Stop" : "Start";
-		}
-    }
+	}
 }
