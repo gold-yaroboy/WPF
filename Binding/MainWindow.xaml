@@ -6,30 +6,31 @@
         xmlns:local="clr-namespace:Binding"
         mc:Ignorable="d"
         Title="Binding PV_521" Height="450" Width="300">
-    <Grid FocusManager.FocusedElement="{Binding ElementName=txtInput}">
+    <Grid FocusManager.FocusedElement="{Binding ElementName=txtInput}" Margin="24,0,24,0">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
         <TextBox Name="txtInput" Grid.Row="0"
-                 Width="252" Height="48"
+                  Height="48"
                  Margin="10" FontSize="16"
-                 HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
+                 TextWrapping="Wrap"
                  Text="{Binding BoundText, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"
                  
                  />
         <Button Name="btnSet" Grid.Row="1"
-                Width="252" Height="48"
+                 Height="48"
                 Margin="10" FontSize="16"
                 Content="Set"
                 Click="btnSet_Click"
                 
                  />
         <TextBox Name="tbResult" Grid.Row="2" 
-                  Width="252" Height="48"
+                  Height="48"
                   Margin="10" FontSize="16"
-                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                  HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
                   Text="{Binding BoundText}"
                  />
 
