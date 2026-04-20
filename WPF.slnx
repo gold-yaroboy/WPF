@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Binding/Binding.csproj" Id="e563f546-8890-4b0e-b9b6-7a5d689bb094" />
   <Project Path="Grid/Grid.csproj" Id="42f7045e-55ae-4ab4-a8d2-7baf521c3568" />
   <Project Path="WPF/WPF.csproj" Id="de756818-085d-46b2-a790-a597190340ee" />
 </Solution>
